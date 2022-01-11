@@ -4,8 +4,8 @@ Django Opensearch DSL
 [![PyPI Version](https://badge.fury.io/py/django-opensearch-dsl.svg)](https://badge.fury.io/py/django-opensearch-dsl)
 [![Documentation Status](https://readthedocs.org/projects/django-opensearch-dsl/badge/?version=latest)](https://django-opensearch-dsl.readthedocs.io/en/latest/?badge=latest)
 ![Tests](https://github.com/Codoc-os/django-opensearch-dsl/workflows/Tests/badge.svg)
-[![Python 3.6+](https://img.shields.io/badge/Python-3.6+-brightgreen.svg)](#)
-[![Django 2.1+](https://img.shields.io/badge/Django-2.1+-brightgreen.svg)](#)
+[![Python 3.7+](https://img.shields.io/badge/Python-3.7+-brightgreen.svg)](#)
+[![Django 2.2+, 3.2+, 4.0+](https://img.shields.io/badge/Django-2.2+,%203.2+,%204.0+-brightgreen.svg)](#)
 [![License Apache 2](https://img.shields.io/badge/license-Apache%202-brightgreen.svg)](https://github.com/Codoc-os/django-opensearch-dsl/blob/master/LICENSE)
 [![codecov](https://codecov.io/gh/Codoc-os/django-opensearch-dsl/branch/master/graph/badge.svg)](https://codecov.io/gh/Codoc-os/django-opensearch-dsl)
 [![CodeFactor](https://www.codefactor.io/repository/github/Codoc-os/django-opensearch-dsl/badge)](https://www.codefactor.io/repository/github/Codoc-os/django-opensearch-dsl)
@@ -29,8 +29,8 @@ at [https://django-opensearch-dsl.readthedocs.io](https://django-opensearch-dsl.
 
 ## Requirements
 
-* `Python>=3.6`
-* `django>=2.1`
+* `Python>=3.7`
+* `django>=2.2`
 * `opensearch-dsl~=1.0.0`
 
 ## Installation and Configuration
