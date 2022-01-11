@@ -32,7 +32,6 @@ at [https://django-opensearch-dsl.readthedocs.io](https://django-opensearch-dsl.
 * `Python>=3.6`
 * `django>=2.1`
 * `opensearch-dsl~=1.0.0`
-* `python-dateutil~=2.8.2`
 
 ## Installation and Configuration
 

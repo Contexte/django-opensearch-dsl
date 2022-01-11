@@ -1,7 +1,6 @@
 import datetime
 from typing import Union, List
 
-from dateutil.parser import isoparse
 from django.conf import settings
 from django.utils.timezone import make_aware, is_aware
 
@@ -12,9 +11,9 @@ Values = Union[None, int, float, datetime.datetime, str, List['Values']]
 def datetime_parser(value: str) -> Union[Nothing, datetime.datetime]:
     """Try to parse the given value as a ISO 8601's datetime."""
     try:
-        date = isoparse(value)
+        date = datetime.datetime.fromisoformat(value)
         if not is_aware(date):
-            date = make_aware(isoparse(value))
+            date = make_aware(date)
         return date
     except ValueError as e:
         return ...
