@@ -1,5 +1,9 @@
 # Changelog
 
+## X.Y.Z (not released yet)
+
+* New feature: zero-downtime document migration
+
 ### 0.4.1 (2022-08-16)
 
 * `Document.update()` method now take an optional `using` argument allowing to specify an alternate
